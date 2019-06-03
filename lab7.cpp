@@ -56,6 +56,12 @@
     return length;
   }
 
+
+  // task 5
+  int decr(int x) {
+    return --x;
+  }
+
   int main() {
     // // task 1
     //
@@ -95,5 +101,6 @@
     // else cout << "[-] it's not a triangle!" << endl;
 
     // task 5
+    cout << decr(4);
 
   }
